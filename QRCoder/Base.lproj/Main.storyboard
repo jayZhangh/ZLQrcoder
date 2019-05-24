@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="448-9a-Su8">
-                                <rect key="frame" x="116" y="285" width="143" height="43"/>
+                                <rect key="frame" x="116" y="165" width="143" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Scan Qrcode"/>
                                 <connections>
@@ -27,11 +27,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4d-oN-M6w">
-                                <rect key="frame" x="116" y="214" width="143" height="43"/>
+                                <rect key="frame" x="116" y="104" width="143" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Generator Qrcode"/>
                                 <connections>
                                     <action selector="generatorQrcode" destination="BYZ-38-t0r" eventType="touchUpInside" id="hqI-tc-7Aa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUv-Zy-I59">
+                                <rect key="frame" x="116" y="225" width="143" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="media"/>
+                                <connections>
+                                    <action selector="mediaOnClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="nHF-lt-qMO"/>
                                 </connections>
                             </button>
                         </subviews>

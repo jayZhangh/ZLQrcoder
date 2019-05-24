@@ -12,6 +12,12 @@
 		A209093C228A9BF900BFFDEB /* ScanQrcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A209093A228A9BF900BFFDEB /* ScanQrcodeViewController.m */; };
 		A209093D228A9BF900BFFDEB /* ScanQrcodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A209093B228A9BF900BFFDEB /* ScanQrcodeViewController.xib */; };
 		A209093F228AA84200BFFDEB /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A209093E228AA84200BFFDEB /* DemoViewController.xib */; };
+		A233849E2297F6D700ED6B0D /* ZLVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A23384992297F6D700ED6B0D /* ZLVideoModel.m */; };
+		A233849F2297F6D700ED6B0D /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A233849B2297F6D700ED6B0D /* MediaViewController.m */; };
+		A23384A02297F6D700ED6B0D /* MediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A233849C2297F6D700ED6B0D /* MediaViewController.xib */; };
+		A23384A32297F6E200ED6B0D /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23384A22297F6E200ED6B0D /* CoreServices.framework */; };
+		A23384A72297F75F00ED6B0D /* RecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23384A52297F75F00ED6B0D /* RecordVideoViewController.m */; };
+		A23384A82297F75F00ED6B0D /* RecordVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23384A62297F75F00ED6B0D /* RecordVideoViewController.xib */; };
 		A2553DF8228948E30062DBAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2553DF7228948E30062DBAE /* AppDelegate.m */; };
 		A2553DFB228948E30062DBAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2553DFA228948E30062DBAE /* ViewController.m */; };
 		A2553DFE228948E30062DBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2553DFC228948E30062DBAE /* Main.storyboard */; };
@@ -19,6 +25,17 @@
 		A2553E03228948EC0062DBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2553E01228948EC0062DBAE /* LaunchScreen.storyboard */; };
 		A2553E06228948EC0062DBAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2553E05228948EC0062DBAE /* main.m */; };
 		A2553E2F2289556B0062DBAE /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2553E2E2289556B0062DBAE /* DemoViewController.m */; };
+		A2610CD3229286D700736F5C /* ZLAssetDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = A2610CD1229286D700736F5C /* ZLAssetDatas.m */; };
+		A2610CD6229286E700736F5C /* ZLAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2610CD5229286E700736F5C /* ZLAssetsViewController.m */; };
+		A2610CDA229288F100736F5C /* ZLPhotoGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2610CD8229288F100736F5C /* ZLPhotoGroupsViewController.m */; };
+		A2610CDB229288F100736F5C /* ZLPhotoGroupsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2610CD9229288F100736F5C /* ZLPhotoGroupsViewController.xib */; };
+		A2610CDE22928F8200736F5C /* ZLAssetsGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2610CDD22928F8200736F5C /* ZLAssetsGroupModel.m */; };
+		A2610CE02292975E00736F5C /* ZLAssetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2610CDF2292975E00736F5C /* ZLAssetsViewController.xib */; };
+		A2610CE322929B1D00736F5C /* ZLAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2610CE222929B1D00736F5C /* ZLAssetModel.m */; };
+		A2610CE72292A80100736F5C /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2610CE52292A80100736F5C /* PhotoBrowserViewController.m */; };
+		A2610CE82292A80100736F5C /* PhotoBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2610CE62292A80100736F5C /* PhotoBrowserViewController.xib */; };
+		A275359D22952B020091E4E4 /* SystemShredFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A275359C22952B010091E4E4 /* SystemShredFunctionViewController.m */; };
+		A27535A522952BC20091E4E4 /* ZLPhotoCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A27535A422952BC20091E4E4 /* ZLPhotoCollection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +46,15 @@
 		A209093A228A9BF900BFFDEB /* ScanQrcodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanQrcodeViewController.m; sourceTree = "<group>"; };
 		A209093B228A9BF900BFFDEB /* ScanQrcodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanQrcodeViewController.xib; sourceTree = "<group>"; };
 		A209093E228AA84200BFFDEB /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		A23384992297F6D700ED6B0D /* ZLVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLVideoModel.m; sourceTree = "<group>"; };
+		A233849A2297F6D700ED6B0D /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
+		A233849B2297F6D700ED6B0D /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
+		A233849C2297F6D700ED6B0D /* MediaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaViewController.xib; sourceTree = "<group>"; };
+		A233849D2297F6D700ED6B0D /* ZLVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLVideoModel.h; sourceTree = "<group>"; };
+		A23384A22297F6E200ED6B0D /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		A23384A42297F75F00ED6B0D /* RecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVideoViewController.h; sourceTree = "<group>"; };
+		A23384A52297F75F00ED6B0D /* RecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVideoViewController.m; sourceTree = "<group>"; };
+		A23384A62297F75F00ED6B0D /* RecordVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordVideoViewController.xib; sourceTree = "<group>"; };
 		A2553DF3228948E30062DBAE /* QRCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2553DF6228948E30062DBAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2553DF7228948E30062DBAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +67,25 @@
 		A2553E05228948EC0062DBAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2553E2D2289556B0062DBAE /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		A2553E2E2289556B0062DBAE /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		A2610CD1229286D700736F5C /* ZLAssetDatas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLAssetDatas.m; sourceTree = "<group>"; };
+		A2610CD2229286D700736F5C /* ZLAssetDatas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLAssetDatas.h; sourceTree = "<group>"; };
+		A2610CD4229286E700736F5C /* ZLAssetsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLAssetsViewController.h; sourceTree = "<group>"; };
+		A2610CD5229286E700736F5C /* ZLAssetsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAssetsViewController.m; sourceTree = "<group>"; };
+		A2610CD7229288F100736F5C /* ZLPhotoGroupsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPhotoGroupsViewController.h; sourceTree = "<group>"; };
+		A2610CD8229288F100736F5C /* ZLPhotoGroupsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoGroupsViewController.m; sourceTree = "<group>"; };
+		A2610CD9229288F100736F5C /* ZLPhotoGroupsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZLPhotoGroupsViewController.xib; sourceTree = "<group>"; };
+		A2610CDC22928F8200736F5C /* ZLAssetsGroupModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLAssetsGroupModel.h; sourceTree = "<group>"; };
+		A2610CDD22928F8200736F5C /* ZLAssetsGroupModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAssetsGroupModel.m; sourceTree = "<group>"; };
+		A2610CDF2292975E00736F5C /* ZLAssetsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZLAssetsViewController.xib; sourceTree = "<group>"; };
+		A2610CE122929B1D00736F5C /* ZLAssetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLAssetModel.h; sourceTree = "<group>"; };
+		A2610CE222929B1D00736F5C /* ZLAssetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAssetModel.m; sourceTree = "<group>"; };
+		A2610CE42292A80100736F5C /* PhotoBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserViewController.h; sourceTree = "<group>"; };
+		A2610CE52292A80100736F5C /* PhotoBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserViewController.m; sourceTree = "<group>"; };
+		A2610CE62292A80100736F5C /* PhotoBrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoBrowserViewController.xib; sourceTree = "<group>"; };
+		A275359B22952B010091E4E4 /* SystemShredFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemShredFunctionViewController.h; sourceTree = "<group>"; };
+		A275359C22952B010091E4E4 /* SystemShredFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemShredFunctionViewController.m; sourceTree = "<group>"; };
+		A27535A322952BC20091E4E4 /* ZLPhotoCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPhotoCollection.h; sourceTree = "<group>"; };
+		A27535A422952BC20091E4E4 /* ZLPhotoCollection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoCollection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,17 +93,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23384A32297F6E200ED6B0D /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A23384A12297F6E100ED6B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A23384A22297F6E200ED6B0D /* CoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2553DEA228948E30062DBAE = {
 			isa = PBXGroup;
 			children = (
 				A2553DF5228948E30062DBAE /* QRCoder */,
 				A2553DF4228948E30062DBAE /* Products */,
+				A23384A12297F6E100ED6B0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +128,15 @@
 		A2553DF5228948E30062DBAE /* QRCoder */ = {
 			isa = PBXGroup;
 			children = (
+				A233849A2297F6D700ED6B0D /* MediaViewController.h */,
+				A233849B2297F6D700ED6B0D /* MediaViewController.m */,
+				A233849C2297F6D700ED6B0D /* MediaViewController.xib */,
+				A233849D2297F6D700ED6B0D /* ZLVideoModel.h */,
+				A23384992297F6D700ED6B0D /* ZLVideoModel.m */,
+				A275359B22952B010091E4E4 /* SystemShredFunctionViewController.h */,
+				A275359C22952B010091E4E4 /* SystemShredFunctionViewController.m */,
+				A2610CD2229286D700736F5C /* ZLAssetDatas.h */,
+				A2610CD1229286D700736F5C /* ZLAssetDatas.m */,
 				A2553DF6228948E30062DBAE /* AppDelegate.h */,
 				A2553DF7228948E30062DBAE /* AppDelegate.m */,
 				A2553DF9228948E30062DBAE /* ViewController.h */,
@@ -91,6 +155,24 @@
 				A2090939228A9BF900BFFDEB /* ScanQrcodeViewController.h */,
 				A209093A228A9BF900BFFDEB /* ScanQrcodeViewController.m */,
 				A209093B228A9BF900BFFDEB /* ScanQrcodeViewController.xib */,
+				A2610CD4229286E700736F5C /* ZLAssetsViewController.h */,
+				A2610CD5229286E700736F5C /* ZLAssetsViewController.m */,
+				A2610CDF2292975E00736F5C /* ZLAssetsViewController.xib */,
+				A2610CD7229288F100736F5C /* ZLPhotoGroupsViewController.h */,
+				A2610CD8229288F100736F5C /* ZLPhotoGroupsViewController.m */,
+				A2610CD9229288F100736F5C /* ZLPhotoGroupsViewController.xib */,
+				A2610CDC22928F8200736F5C /* ZLAssetsGroupModel.h */,
+				A2610CDD22928F8200736F5C /* ZLAssetsGroupModel.m */,
+				A2610CE122929B1D00736F5C /* ZLAssetModel.h */,
+				A2610CE222929B1D00736F5C /* ZLAssetModel.m */,
+				A2610CE42292A80100736F5C /* PhotoBrowserViewController.h */,
+				A2610CE52292A80100736F5C /* PhotoBrowserViewController.m */,
+				A2610CE62292A80100736F5C /* PhotoBrowserViewController.xib */,
+				A23384A42297F75F00ED6B0D /* RecordVideoViewController.h */,
+				A23384A52297F75F00ED6B0D /* RecordVideoViewController.m */,
+				A23384A62297F75F00ED6B0D /* RecordVideoViewController.xib */,
+				A27535A322952BC20091E4E4 /* ZLPhotoCollection.h */,
+				A27535A422952BC20091E4E4 /* ZLPhotoCollection.m */,
 			);
 			path = QRCoder;
 			sourceTree = "<group>";
@@ -155,7 +237,12 @@
 				A2553E03228948EC0062DBAE /* LaunchScreen.storyboard in Resources */,
 				A209093F228AA84200BFFDEB /* DemoViewController.xib in Resources */,
 				A2090938228A890100BFFDEB /* QrcodeGeneratorViewController.xib in Resources */,
+				A23384A02297F6D700ED6B0D /* MediaViewController.xib in Resources */,
+				A2610CE02292975E00736F5C /* ZLAssetsViewController.xib in Resources */,
+				A2610CDB229288F100736F5C /* ZLPhotoGroupsViewController.xib in Resources */,
+				A23384A82297F75F00ED6B0D /* RecordVideoViewController.xib in Resources */,
 				A2553E00228948EC0062DBAE /* Assets.xcassets in Resources */,
+				A2610CE82292A80100736F5C /* PhotoBrowserViewController.xib in Resources */,
 				A209093D228A9BF900BFFDEB /* ScanQrcodeViewController.xib in Resources */,
 				A2553DFE228948E30062DBAE /* Main.storyboard in Resources */,
 			);
@@ -169,11 +256,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2553DFB228948E30062DBAE /* ViewController.m in Sources */,
+				A2610CE322929B1D00736F5C /* ZLAssetModel.m in Sources */,
+				A233849F2297F6D700ED6B0D /* MediaViewController.m in Sources */,
+				A275359D22952B020091E4E4 /* SystemShredFunctionViewController.m in Sources */,
 				A2553E06228948EC0062DBAE /* main.m in Sources */,
+				A2610CDA229288F100736F5C /* ZLPhotoGroupsViewController.m in Sources */,
 				A2553E2F2289556B0062DBAE /* DemoViewController.m in Sources */,
+				A2610CD3229286D700736F5C /* ZLAssetDatas.m in Sources */,
+				A233849E2297F6D700ED6B0D /* ZLVideoModel.m in Sources */,
 				A2090937228A890100BFFDEB /* QrcodeGeneratorViewController.m in Sources */,
 				A2553DF8228948E30062DBAE /* AppDelegate.m in Sources */,
+				A2610CE72292A80100736F5C /* PhotoBrowserViewController.m in Sources */,
 				A209093C228A9BF900BFFDEB /* ScanQrcodeViewController.m in Sources */,
+				A2610CDE22928F8200736F5C /* ZLAssetsGroupModel.m in Sources */,
+				A23384A72297F75F00ED6B0D /* RecordVideoViewController.m in Sources */,
+				A2610CD6229286E700736F5C /* ZLAssetsViewController.m in Sources */,
+				A27535A522952BC20091E4E4 /* ZLPhotoCollection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
